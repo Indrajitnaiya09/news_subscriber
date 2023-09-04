@@ -1,24 +1,15 @@
-# README
+## Description
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The purpose of this project is to handle contact us form. Once a new person will submit his/her query, a mail will trigger to the responsible person along with the details.
 
-Things you may want to cover:
+## Development Enviroment
+- Ruby 2.7.1
+- Rails 6.0.3.2
 
-* Ruby version
+## How to run this project
+    git clone git@github.com:Indrajitnaiya09/news_subscriber.git
+    bundle
+    rails db:create
+    rails db:migrate
+    rails s -p 4000
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
