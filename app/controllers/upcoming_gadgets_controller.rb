@@ -1,4 +1,3 @@
-require 'pry'
 class UpcomingGadgetsController < ApplicationController
   skip_before_action :verify_authenticity_token, :only => [:create, :update]
   def create
